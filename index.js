@@ -5,8 +5,8 @@
 import { Pages, Icons } from './config/imports';
 import Privileges from './config/privileges';
 
-export default {
-    name: '@ergo/import',
+module.exports = {
+    name: '@bleto/ergo-import',
     type: 'page',
     moduleRelations: [
         '@ergo/core',
