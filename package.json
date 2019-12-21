@@ -1,0 +1,18 @@
+{
+  "name": "@bleto/ergo-import",
+  "version": "1.0.0",
+  "description": "Ergonode import page module",
+  "repository": "git://github.com/bleto/ergo-import-module.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "ergonode"
+  ],
+  "author": "bleto",
+  "license": "MIT",
+  "homepage": "https://github.com/bleto/ergo-import-module"
+}
