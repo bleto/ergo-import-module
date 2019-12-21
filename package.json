@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Ergonode import page module",
   "repository": "git://github.com/bleto/ergo-import-module.git",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
