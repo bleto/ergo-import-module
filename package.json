@@ -1,9 +1,11 @@
 {
   "name": "@bleto/ergo-import",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Ergonode import page module",
-  "repository": "git://github.com/bleto/ergo-import-module.git",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bleto/ergo-import-module.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +17,8 @@
   ],
   "author": "bleto",
   "license": "MIT",
-  "homepage": "https://github.com/bleto/ergo-import-module"
+  "homepage": "https://github.com/bleto/ergo-import-module",
+  "bugs": {
+    "url": "https://github.com/bleto/ergo-import-module/issues"
+  }
 }
