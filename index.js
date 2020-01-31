@@ -5,12 +5,10 @@
 import { Pages, Icons } from './config/imports';
 import Privileges from './config/privileges';
 
-module.exports = {
+export default {
     name: '@bleto/ergo-import',
     type: 'page',
-    moduleRelations: [
-        '@ergo/core',
-    ],
+    moduleRelations: [],
     privileges: Privileges,
     nuxt: {
         aliases: {
@@ -27,17 +25,22 @@ module.exports = {
                 title: 'Imports',
                 group: {
                     title: 'Sources',
+                    menuPosition: 4,
                     icon: Icons.Export,
                 },
+                breadcrumbs: [
+                    {
+                        title: 'Imports',
+                        icon: Icons.Export,
+                    },
+                ],
                 isMenu: true,
-                privileges: Privileges.IMPORT,
+                menuPosition: 1,
+                privileges: {
+                    namespace: Privileges.IMPORT.namespace,
+                    read: Privileges.IMPORT.read,
+                },
             },
-        },
-    ],
-    store: [
-        {
-            directory: 'import',
-            name: 'import',
         },
     ],
 };
